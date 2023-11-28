@@ -1,0 +1,26 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 6rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 345px;
+  height: 400px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* Target the individual bullets */
+.swiper-pagination-bullet {
+  /* Change the color of the bullet */
+  background-color: #f97316;
+  /* You can also add other styling properties here, like size or border */
+
+  border-radius: 50%; /* To make them circular */
+}
